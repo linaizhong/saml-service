@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Core
-gem 'rails', '4.1.4'
+gem 'rails', '4.1.7'
 gem 'mysql2'
 gem 'sequel-rails'
 
@@ -21,7 +21,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'unicorn'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0.0'
+  gem 'rspec-rails', '~> 3.1.0'
   gem 'shoulda-matchers'
   gem 'faker'
   gem 'factory_girl_rails'
@@ -31,9 +31,8 @@ group :development, :test do
   gem 'guard-bundler'
   gem 'guard-rubocop'
   gem 'guard-rspec'
-  gem 'terminal-notifier-guard'
   gem 'pry-theme'
   gem 'pry-rails'
   gem 'brakeman'
-  gem 'rspec_sequel_matchers'
+  gem 'rspec_sequel_matchers', git: 'https://github.com/bradleybeddoes/rspec_sequel_matchers.git'
 end

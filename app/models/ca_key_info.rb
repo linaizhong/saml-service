@@ -1,0 +1,2 @@
+class CaKeyInfo < KeyInfo
+end
